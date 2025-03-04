@@ -1,7 +1,16 @@
 
 @layer base {
  
-
+  .spacing{
+    height: 32rem;
+  }
+  h1,h2,h3,h4,h5,h6{
+    @apply uppercase font-[Gemunu_Libre];
+  }
+  a{
+    @apply font-[Gemunu_Libre];
+  }
+  
   }
   
 
